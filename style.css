@@ -127,50 +127,50 @@ body {
     display: none;
   }
   .unloaded {
-    background: url("img/pa.png") no-repeat;
+    background: url("pa.png") no-repeat;
     display: block;
     padding-left: 15;
     border: none;
     margin-left: 8px;  
   }
   .loaded {
-    background: url("img/ex.png") no-repeat;
+    background: url("ex.png") no-repeat;
     display: block;
     border: none; 
 }
 .brend1 {
-  background: url("img/lenovo.png") no-repeat;
+  background: url("lenovo.png") no-repeat;
 }
 .brend2 {
-  background: url("img/samsung.png") no-repeat;
+  background: url("samsung.png") no-repeat;
 }
 .brend3 {
-  background: url("img/iphon.png") no-repeat;
+  background: url("iphon.png") no-repeat;
 }
 .brend4 {
-  background: url("img/sonic.png") no-repeat;
+  background: url("sonic.png") no-repeat;
   display: none;
 }
 .brend5 {
-  background: url("img/bosch.png") no-repeat;
+  background: url("bosch.png") no-repeat;
 }
 .brend6 {
-  background: url("img/hp.png") no-repeat;
+  background: url("hp.png") no-repeat;
 }
 .brend7 {
-  background: url("img/acer.png") no-repeat;
+  background: url("acer.png") no-repeat;
 }
 .brend8 {
-  background: url("img/sony.png") no-repeat;
+  background: url("sony.png") no-repeat;
 }
 .brend9 {
-  background: url("img/lenovo.png") no-repeat;
+  background: url("lenovo.png") no-repeat;
 }
 .brend10 {
-  background: url("img/samsung.png") no-repeat;
+  background: url("samsung.png") no-repeat;
 }
 .brend11 {
-  background: url("img/iphon.png") no-repeat;
+  background: url("iphon.png") no-repeat;
 }
 }
 @media only screen and (min-device-width : 1120px) and (max-device-width : 2000px) {
@@ -240,48 +240,48 @@ body {
     display: none;
   }
   .unloaded {
-    background: url("img/pa.png") no-repeat;
+    background: url("pa.png") no-repeat;
     display: block;
     padding-left: 15;
     border: none;
     margin-left: 8px;  
   }
   .loaded {
-    background: url("img/ex.png") no-repeat;
+    background: url("ex.png") no-repeat;
     display: block;
     border: none; 
 }
 .brend1 {
-  background: url("img/lenovo.png") no-repeat;
+  background: url("lenovo.png") no-repeat;
 }
 .brend2 {
-  background: url("img/samsung.png") no-repeat;
+  background: url("samsung.png") no-repeat;
 }
 .brend3 {
-  background: url("img/iphon.png") no-repeat;
+  background: url("iphon.png") no-repeat;
 }
 .brend4 {
-  background: url("img/sonic.png") no-repeat;
+  background: url("sonic.png") no-repeat;
 }
 .brend5 {
-  background: url("img/bosch.png") no-repeat;
+  background: url("bosch.png") no-repeat;
 }
 .brend6 {
-  background: url("img/hp.png") no-repeat;
+  background: url("hp.png") no-repeat;
 }
 .brend7 {
-  background: url("img/acer.png") no-repeat;
+  background: url("acer.png") no-repeat;
 }
 .brend8 {
-  background: url("img/sony.png") no-repeat;
+  background: url("sony.png") no-repeat;
 }
 .brend9 {
-  background: url("img/lenovo.png") no-repeat;
+  background: url("lenovo.png") no-repeat;
 }
 .brend10 {
-  background: url("img/samsung.png") no-repeat;
+  background: url("samsung.png") no-repeat;
 }
 .brend11 {
-  background: url("img/iphon.png") no-repeat;
+  background: url("iphon.png") no-repeat;
 }
 }

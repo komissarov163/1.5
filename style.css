@@ -1,0 +1,287 @@
+
+@media only screen and (min-device-width : 250px) and (max-device-width : 767px) {
+.swiper-header {
+    color: #7E7E82;
+    background-color:  #F8F8F8;
+    height: 80px;
+    width: 320px;
+    left: 320px;
+    top: 0px;
+    text-align: left;
+    padding-left: 16px;
+    padding-top: 20px; 
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  height: 72px;
+  width: 240px;
+  left: 16px;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-slide {
+  width: 80%;
+}
+.swiper-pagination {
+  top: 100px;
+}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1119px) {
+  .swiper-header {
+    color: #7E7E82;
+    margin-left: 25px;
+}
+  .swiper.mySwiper {
+    display: none;
+  }
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  .load-more-container {
+    width: 95%;
+    margin: 20px;
+    position: relative;
+  }
+  .load-more-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .load-more-container ul:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .load-more-container ul li {
+    width: calc(33% - 10px);
+    margin: 10px 5px 0;
+    height: 80px; 
+    color: rgb(226, 216, 216);
+    float: left;
+    border-radius: 2px;
+  }
+  .load-more-container ul li:nth-child(1n + 8) {
+    max-height: 0;
+    opacity: 0;
+    transition: 0.1s ease-in;
+  }
+  .load-more-container .load-more-btn {
+    width: 130px;
+    line-height: 25px;
+    border-radius: 2px;
+    margin-left: 57px;
+    display: block;
+    color: #1B1C21;
+    cursor: pointer;
+    text-align: center;
+  }
+  .load-more-container .load-more-btn .loaded {
+    display: none;
+  }
+  .load-more-container #load-more {
+    display: none;
+  }
+  .load-more-container #load-more:checked ~ ul li:nth-child(1n + 5) {
+    max-height: 999px;
+    opacity: 1;
+    transition: 0.2s ease-in;
+  }
+  .load-more-container #load-more:checked ~ .load-more-btn .loaded {
+    display: block;
+  }
+  .load-more-container #load-more:checked ~ .load-more-btn .unloaded {
+    display: none;
+  }
+  .unloaded {
+    background: url("img/pa.png") no-repeat;
+    display: block;
+    padding-left: 15;
+    border: none;
+    margin-left: 8px;  
+  }
+  .loaded {
+    background: url("img/ex.png") no-repeat;
+    display: block;
+    border: none; 
+}
+.brend1 {
+  background: url("img/lenovo.png") no-repeat;
+}
+.brend2 {
+  background: url("img/samsung.png") no-repeat;
+}
+.brend3 {
+  background: url("img/iphon.png") no-repeat;
+}
+.brend4 {
+  background: url("img/sonic.png") no-repeat;
+  display: none;
+}
+.brend5 {
+  background: url("img/bosch.png") no-repeat;
+}
+.brend6 {
+  background: url("img/hp.png") no-repeat;
+}
+.brend7 {
+  background: url("img/acer.png") no-repeat;
+}
+.brend8 {
+  background: url("img/sony.png") no-repeat;
+}
+.brend9 {
+  background: url("img/lenovo.png") no-repeat;
+}
+.brend10 {
+  background: url("img/samsung.png") no-repeat;
+}
+.brend11 {
+  background: url("img/iphon.png") no-repeat;
+}
+}
+@media only screen and (min-device-width : 1120px) and (max-device-width : 2000px) {
+  .swiper-header {
+    color: #7E7E82;
+    margin-left: 25px;
+}
+  .swiper.mySwiper {
+    display: none;
+  }
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  .load-more-container {
+    width: 100%;
+    margin: 10px;
+    
+    position: relative;
+  }
+  .load-more-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .load-more-container ul:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .load-more-container ul li {
+    width: calc(25% - 10px);
+    margin: 10px 5px 0;
+    height: 80px; 
+    color: rgb(226, 216, 216);
+    float: left;
+    border-radius: 2px;
+  }
+  .load-more-container ul li:nth-child(1n + 9) {
+    max-height: 0;
+    opacity: 0;
+    transition: 0.1s ease-in;
+  }
+  .load-more-container .load-more-btn {
+    width: 130px;
+    line-height: 25px;
+    border-radius: 2px;
+    margin-left: 57px;
+    display: block;
+    color: #1B1C21;
+    cursor: pointer;
+    text-align: center;
+  }
+  .load-more-container .load-more-btn .loaded {
+    display: none;
+  }
+  .load-more-container #load-more {
+    display: none;
+  }
+  .load-more-container #load-more:checked ~ ul li:nth-child(1n + 5) {
+    max-height: 999px;
+    opacity: 1;
+    transition: 0.2s ease-in;
+  }
+  .load-more-container #load-more:checked ~ .load-more-btn .loaded {
+    display: block;
+  }
+  .load-more-container #load-more:checked ~ .load-more-btn .unloaded {
+    display: none;
+  }
+  .unloaded {
+    background: url("img/pa.png") no-repeat;
+    display: block;
+    padding-left: 15;
+    border: none;
+    margin-left: 8px;  
+  }
+  .loaded {
+    background: url("img/ex.png") no-repeat;
+    display: block;
+    border: none; 
+}
+.brend1 {
+  background: url("img/lenovo.png") no-repeat;
+}
+.brend2 {
+  background: url("img/samsung.png") no-repeat;
+}
+.brend3 {
+  background: url("img/iphon.png") no-repeat;
+}
+.brend4 {
+  background: url("img/sonic.png") no-repeat;
+}
+.brend5 {
+  background: url("img/bosch.png") no-repeat;
+}
+.brend6 {
+  background: url("img/hp.png") no-repeat;
+}
+.brend7 {
+  background: url("img/acer.png") no-repeat;
+}
+.brend8 {
+  background: url("img/sony.png") no-repeat;
+}
+.brend9 {
+  background: url("img/lenovo.png") no-repeat;
+}
+.brend10 {
+  background: url("img/samsung.png") no-repeat;
+}
+.brend11 {
+  background: url("img/iphon.png") no-repeat;
+}
+}
